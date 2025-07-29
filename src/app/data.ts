@@ -123,6 +123,7 @@ export const DATA = {
   BLOGS: {
     "Finalist – Call2Code Hackathon, MUJ": {
       DATE: "April 2025",
+      TIME: "",
 
       DESCRIPTION:
         "Built an AI-powered stock market dashboard with multilingual voice command support, real-time analytics, and sentiment analysis. Selected as a finalist among 100+ teams.",
@@ -130,6 +131,7 @@ export const DATA = {
     },
     "Semi-Finalist – BitBash Hackathon, NIT Kurukshetra": {
       DATE: "March 2025",
+      TIME: "",
 
       DESCRIPTION:
         "Developed a real-world solution under 24-hour time constraints; recognized as one of the top-performing teams.",
