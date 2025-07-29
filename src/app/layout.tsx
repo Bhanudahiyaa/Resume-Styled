@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   authors: [
-    { name: "Bhanu Pratap Singh", url: "https://utkarsh-singhal.is-a.dev/" },
+    { name: "Bhanu Pratap Singh", url: "https://bhanudahiya.in.dev/" },
   ],
   keywords: [
     "Bhanu Pratap Singh",
