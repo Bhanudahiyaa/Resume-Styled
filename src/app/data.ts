@@ -1,6 +1,3 @@
-import LibraryImage from "@/assets/library.png";
-import SkygazeImage from "@/assets/skygaze.png";
-import TodoImage from "@/assets/todo.png";
 import { StaticImageData } from "next/image";
 import { cache } from "react";
 
@@ -35,7 +32,7 @@ export const DATA = {
   },
 
   EXPERIENCE: {
-    "FirstContact": {
+    FirstContact: {
       WEBSITE: "https://firstcontact.lgbt",
       POSITION: "Backend Developer Intern",
       LOCATION: "Remote",
@@ -64,7 +61,7 @@ export const DATA = {
       DESCRIPTION: [
         "Built in 48 hours at Call2Code Hackathon (MUJ) and selected as a finalist among 100+ teams.",
         "Developed 12+ features: real-time charts, multilingual support (English, Hindi, Spanish), and voice-controlled navigation using Web Speech API.",
-        "Integrated APIs for real-time financial analytics and sentiment analysis across 50+ tickers."
+        "Integrated APIs for real-time financial analytics and sentiment analysis across 50+ tickers.",
       ],
       TECH_STACK: [
         "React.js",
@@ -73,7 +70,7 @@ export const DATA = {
         "Supabase",
         "Web Speech API",
       ],
-      IMAGE: SkygazeImage,
+
       HIDDEN: false,
     },
     "SQL QueryPilot": {
@@ -83,15 +80,10 @@ export const DATA = {
       DESCRIPTION: [
         "Converts natural language into SQL, reducing query time by 90x and improving accessibility for 250+ non-tech users.",
         "Integrated editable SQL previews with live execution on 20+ databases.",
-        "Deployed on Streamlit Cloud with zero-downtime CI/CD, sub-2s results."
+        "Deployed on Streamlit Cloud with zero-downtime CI/CD, sub-2s results.",
       ],
-      TECH_STACK: [
-        "Python",
-        "Streamlit",
-        "SQLite",
-        "Google Gemini Pro"
-      ],
-      IMAGE: TodoImage,
+      TECH_STACK: ["Python", "Streamlit", "SQLite", "Google Gemini Pro"],
+
       HIDDEN: false,
     },
     "Personal Finance Tracker": {
@@ -101,20 +93,19 @@ export const DATA = {
       DESCRIPTION: [
         "Real-time income/expense tracking used by 30+ users.",
         "CSV import/export for 1000+ records using custom parsing.",
-        "Responsive Recharts for visualizations."
+        "Responsive Recharts for visualizations.",
       ],
       TECH_STACK: [
         "React.js",
         "Firebase",
         "Firestore",
         "Recharts",
-        "PapaParse"
+        "PapaParse",
       ],
-      IMAGE: LibraryImage,
+
       HIDDEN: false,
     },
   },
-
 
   ALL_PROJECTS: "https://github.com/Bhanudahiyaa?tab=repositories",
 
@@ -138,8 +129,14 @@ export const DATA = {
     Libraries: ["Tailwind CSS", "Framer Motion", "ShadCN UI"],
     "Database & Backend": ["MongoDB", "PostgreSQL", "Firebase", "Supabase"],
     "Cloud & Deployment": ["Streamlit Cloud", "Vercel"],
-    "Tools & Platforms": ["Git", "GitHub", "VS Code", "CI/CD", "Postman", "Recharts"],
-  
+    "Tools & Platforms": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "CI/CD",
+      "Postman",
+      "Recharts",
+    ],
   },
 };
 
