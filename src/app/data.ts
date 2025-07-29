@@ -132,9 +132,9 @@ export const DATA = {
     "Semi-Finalist – BitBash Hackathon, NIT Kurukshetra": {
       DATE: "March 2025",
       TIME: "",
-
       DESCRIPTION:
         "Developed a real-world solution under 24-hour time constraints; recognized as one of the top-performing teams.",
+      LINK: "",
     },
   },
 
