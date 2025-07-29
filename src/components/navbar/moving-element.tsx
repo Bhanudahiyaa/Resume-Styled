@@ -1,3 +1,4 @@
+"use client";
 import {
   motion,
   MotionValue,
@@ -24,8 +25,8 @@ export const MovingElement: React.FC<MovingElementProps> = ({
 }) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const textX = useTransform(x, (latest) => latest * 2);
-  const textY = useTransform(y, (latest) => latest * 2);
+  const textX = useTransform(x, latest => latest * 2);
+  const textY = useTransform(y, latest => latest * 2);
 
   const mapRange = (
     inputLower: number,
@@ -58,7 +59,7 @@ export const MovingElement: React.FC<MovingElementProps> = ({
 
   return (
     <motion.div
-      onPointerMove={(event) => {
+      onPointerMove={event => {
         const item = event.currentTarget;
         setTransform(item, event, x, y);
       }}
