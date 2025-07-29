@@ -1308,7 +1308,7 @@ foreground-child@^3.1.0:
     cross-spawn "^7.0.6"
     signal-exit "^4.0.1"
 
-framer-motion@^12.1.0:
+framer-motion@^12.23.11:
   version "12.23.11"
   resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.11.tgz"
   integrity sha512-VzNi+exyI3bn7Pzvz1Fjap1VO9gQu8mxrsSsNamMidsZ8AA8W2kQsR+YQOciEUbMtkKAWIbPHPttfn5e9jqqJQ==
