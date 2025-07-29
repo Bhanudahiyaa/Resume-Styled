@@ -10,8 +10,7 @@ interface IBlogData {
 export function Blogs({ data = {} }: { data?: Record<string, IBlogData> }) {
   return (
     <div id="blogs" className="py-10">
-      <h2 className="font-medium text-primary/90 text-base">achivements.
-      </h2>
+      <h2 className="font-medium text-primary/90 text-base">achievements.</h2>
 
       <ul className="flex flex-col gap-12 mt-4 font-normal text-primary/90 text-base">
         {Object.entries(data).map(([key, value]) => (
@@ -33,7 +32,6 @@ export function Blogs({ data = {} }: { data?: Record<string, IBlogData> }) {
                 >
                   Read more <ArrowUpRight size={18} />
                 </a>
-                
               </p>
 
               <p className="mt-1 text-muted-foreground text-sm text-justify line-clamp-3">
