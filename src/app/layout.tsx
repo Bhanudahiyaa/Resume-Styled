@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
+        url: "https://media.licdn.com/dms/image/v2/D4E03AQFoa40cJ2WOMA/profile-displayphoto-scale_200_200/B4EZgKXbIXGoAg-/0/1752520570498?e=1756944000&v=beta&t=Gln94Us9cZOtS24PhJL6oUS4DXhoJJ4bXCZGIy_vUCQ",
         width: 1200,
         height: 630,
         alt: "Bhanu Pratap Singh | Software Developer",
@@ -32,9 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
-  authors: [
-    { name: "Bhanu Pratap Singh", url: "https://bhanudahiya.in.dev/" },
-  ],
+  authors: [{ name: "Bhanu Pratap Singh", url: "https://bhanudahiya.in.dev/" }],
   keywords: [
     "Bhanu Pratap Singh",
     "Software Developer",
