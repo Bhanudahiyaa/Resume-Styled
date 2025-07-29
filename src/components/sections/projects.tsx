@@ -27,28 +27,32 @@ export function Projects({
                 <div>
                   <p className="text-primary/90 text-lg">{key}</p>
 
-                  <p className="flex items-center gap-1 text-sm">
+                  <div className="flex gap-2 flex-wrap mt-1">
                     {value.LIVE_PREVIEW && (
                       <a
-                        className="flex items-center gap-1"
+                        className="flex items-center gap-1 bg-muted px-2 py-1 rounded text-xs hover:bg-muted/80 transition-colors"
                         href={value.LIVE_PREVIEW}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        live preview <ArrowUpRight size={18} />
+                        live preview <ArrowUpRight size={14} />
                       </a>
                     )}
                     {value.GITHUB && (
                       <a
-                        className="flex items-center gap-1"
+                        className="flex items-center gap-1 bg-muted px-2 py-1 rounded text-xs hover:bg-muted/80 transition-colors"
                         href={value.GITHUB}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        github <ArrowUpRight size={18} />
+                        github <ArrowUpRight size={14} />
                       </a>
                     )}
-                  </p>
+                  </div>
                 </div>
               </div>
 
-              <ul className="space-y-1 mt-1 pl-3 text-muted-foreground text-sm text-justify list-disc">
+              <ul className="space-y-1 mt-2 pl-3 text-muted-foreground text-sm text-justify list-disc">
                 {value.DESCRIPTION.map((desc, index) => (
                   <li key={index}>
                     <span>{desc}</span>

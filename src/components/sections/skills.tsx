@@ -5,14 +5,18 @@ export function Skills({ data }: { data: Record<string, string[]> }) {
         technical skills.
       </h2>
 
-      <ul className="flex flex-col gap-2 mt-4 font-normal text-primary/90 text-base">
-        {Object.entries(data).map(([key, value]) => (
-          <li key={key} className="items-end grid sm:grid-cols-[170px_1fr]">
-            <p>{key}:</p>
-            <p className="text-muted-foreground text-sm">{value.join(", ")}</p>
-          </li>
-        ))}
-      </ul>
+      <div className="flex flex-wrap gap-1.5 mt-4">
+        {Object.entries(data).flatMap(([category, skills]) =>
+          skills.map(skill => (
+            <span
+              key={`${category}-${skill}`}
+              className="px-2.5 py-0.5 rounded-full bg-white text-black text-xs font-medium hover:bg-gray-200 cursor-pointer transition"
+            >
+              {skill}
+            </span>
+          ))
+        )}
+      </div>
     </div>
   );
 }

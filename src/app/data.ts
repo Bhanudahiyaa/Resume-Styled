@@ -12,6 +12,16 @@ export interface IProjectData {
   HIDDEN: boolean;
 }
 
+export interface IExperienceData {
+  WEBSITE: string;
+  POSITION: string;
+  LOCATION: string;
+  DURATION: string;
+  DESCRIPTION: string[];
+  TECH_STACK: string[];
+  LOGO: string;
+}
+
 export const DATA = {
   HEADER: {
     NAME: "Bhanu Pratap Singh",
@@ -50,6 +60,7 @@ export const DATA = {
         "Vercel",
         "Git & Github",
       ],
+      LOGO: "https://media.licdn.com/dms/image/v2/C4D0BAQHKECKlMF9lJA/company-logo_100_100/company-logo_100_100/0/1674622682688/first_contact_lgbt_logo?e=1756944000&v=beta&t=fEvtYu_sd7KuIF4xunJW9wBc7aH05YTJnoTCmgceURY",
     },
   },
 
@@ -70,7 +81,7 @@ export const DATA = {
         "Supabase",
         "Web Speech API",
       ],
-
+      IMAGE: {} as StaticImageData, // Placeholder – replace with actual image
       HIDDEN: false,
     },
     "SQL QueryPilot": {
@@ -83,7 +94,7 @@ export const DATA = {
         "Deployed on Streamlit Cloud with zero-downtime CI/CD, sub-2s results.",
       ],
       TECH_STACK: ["Python", "Streamlit", "SQLite", "Google Gemini Pro"],
-
+      IMAGE: {} as StaticImageData,
       HIDDEN: false,
     },
     "Personal Finance Tracker": {
@@ -102,12 +113,12 @@ export const DATA = {
         "Recharts",
         "PapaParse",
       ],
-
+      IMAGE: {} as StaticImageData,
       HIDDEN: false,
     },
   },
 
-  ALL_PROJECTS: "https://github.com/Bhanudahiyaa?tab=repositories",
+  ALL_PROJECTS: "https://github.com/Bhanudahiyaa",
 
   BLOGS: {
     "Finalist – Call2Code Hackathon, MUJ": {
@@ -126,17 +137,10 @@ export const DATA = {
   SKILLS: {
     Languages: ["Python", "JavaScript", "TypeScript", "SQL"],
     Frameworks: ["React.js", "Next.js", "Node.js", "Express.js"],
-    Libraries: ["Tailwind CSS", "Framer Motion", "ShadCN UI"],
+    Libraries: ["Tailwind CSS", "Framer Motion"],
     "Database & Backend": ["MongoDB", "PostgreSQL", "Firebase", "Supabase"],
     "Cloud & Deployment": ["Streamlit Cloud", "Vercel"],
-    "Tools & Platforms": [
-      "Git",
-      "GitHub",
-      "VS Code",
-      "CI/CD",
-      "Postman",
-      "Recharts",
-    ],
+    "Tools & Platforms": ["Git", "GitHub"],
   },
 };
 

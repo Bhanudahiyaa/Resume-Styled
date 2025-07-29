@@ -8,6 +8,7 @@ interface IExperienceData {
   DURATION: string;
   DESCRIPTION: string[];
   TECH_STACK: string[];
+  LOGO: string;
 }
 
 export function Experience({
@@ -21,8 +22,19 @@ export function Experience({
 
       <ul className="flex flex-col gap-12 mt-4 font-normal text-primary/90 text-base">
         {Object.entries(data).map(([key, value]) => (
-          <li key={key} className="cursor-target">
-            <div className="pl-4 border-muted-foreground hover:border-primary border-l size-full transition-all duration-300">
+          <li key={key} className="cursor-target flex gap-4 items-start">
+            {/* Left Vertical Line */}
+            <div className="w-[1px] bg-muted-foreground hover:bg-primary transition-all duration-300 mt-1" />
+
+            {/* Company Logo (circular) */}
+            <img
+              src={value.LOGO}
+              alt={`${value.POSITION} logo`}
+              className="w-10 h-10 rounded-full object-cover border border-muted shrink-0 mt-1"
+            />
+
+            {/* Experience Content */}
+            <div className="transition-all duration-300">
               <div className="flex sm:flex-row flex-col justify-between items-start">
                 <div>
                   <p className="text-primary/90 text-lg">
@@ -43,7 +55,7 @@ export function Experience({
                     </a>
                   </p>
                 </div>
-                <p className="text-muted-foreground text-sm">
+                <p className="text-muted-foreground text-sm mt-2 sm:mt-0">
                   {value.DURATION}
                 </p>
               </div>
