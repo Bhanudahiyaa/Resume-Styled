@@ -123,12 +123,14 @@ export const DATA = {
   BLOGS: {
     "Finalist – Call2Code Hackathon, MUJ": {
       DATE: "April 2025",
+
       DESCRIPTION:
         "Built an AI-powered stock market dashboard with multilingual voice command support, real-time analytics, and sentiment analysis. Selected as a finalist among 100+ teams.",
       LINK: "https://call2-codecore4.vercel.app/",
     },
     "Semi-Finalist – BitBash Hackathon, NIT Kurukshetra": {
       DATE: "March 2025",
+
       DESCRIPTION:
         "Developed a real-world solution under 24-hour time constraints; recognized as one of the top-performing teams.",
     },

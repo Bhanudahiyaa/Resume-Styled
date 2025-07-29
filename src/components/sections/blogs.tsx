@@ -33,7 +33,7 @@ export function Blogs({ data = {} }: { data?: Record<string, IBlogData> }) {
                 >
                   Read more <ArrowUpRight size={18} />
                 </a>
-                <span className="px-1 py-px text-xs">{value.TIME}</span>
+                
               </p>
 
               <p className="mt-1 text-muted-foreground text-sm text-justify line-clamp-3">
