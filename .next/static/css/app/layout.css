@@ -1001,10 +1001,6 @@ video {
 .p-\[10px\] {
   padding: 10px;
 }
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1044,10 +1040,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-.py-px {
-  padding-top: 1px;
-  padding-bottom: 1px;
 }
 .pl-3 {
   padding-left: 0.75rem;
@@ -1223,6 +1215,9 @@ video {
 }
 .duration-300 {
   animation-duration: 300ms;
+}
+.\[mask-image\:linear-gradient\(to_bottom_right\2c grey\2c transparent\2c transparent\)\] {
+  mask-image: linear-gradient(to bottom right,grey,transparent,transparent);
 }
 .\[mask-image\:linear-gradient\(to_bottom_right\2c white\2c transparent\2c transparent\)\] {
   mask-image: linear-gradient(to bottom right,white,transparent,transparent);

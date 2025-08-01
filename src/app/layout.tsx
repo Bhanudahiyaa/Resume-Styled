@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Bhanu Pratap Singh | Software Developer",
     description:
       "Software developer specializing in Next.js, TypeScript, and Node.js. Experienced in building scalable, high-performance applications.",
-    url: "https://utkarsh-singhal.is-a.dev/",
+    url: "https://69ftw.vercel.app/",
     type: "website",
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
-  authors: [{ name: "Bhanu Pratap Singh", url: "https://bhanudahiya.in.dev/" }],
+  authors: [{ name: "Bhanu Pratap Singh", url: "https://69ftw.vercel.app/" }],
   keywords: [
     "Bhanu Pratap Singh",
     "Software Developer",

@@ -120,7 +120,7 @@ export const DATA = {
 
   ALL_PROJECTS: "https://github.com/Bhanudahiyaa",
 
-  BLOGS: {
+  ACHIEVEMENTS: {
     "Finalist – Call2Code Hackathon, MUJ": {
       DATE: "April 2025",
       TIME: "",

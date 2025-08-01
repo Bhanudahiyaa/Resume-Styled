@@ -3,7 +3,7 @@
 import { DATA } from "@/app/data";
 import {
   AboutMe,
-  Blogs,
+  Achievements,
   Contact,
   Experience,
   Footer,
@@ -29,8 +29,8 @@ export default function Page() {
 
         <main className="px-4 min-h-lvh">
           <GridPattern
-            width={30}
-            height={30}
+            width={26}
+            height={26}
             x={-1}
             y={-1}
             className="[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)]"
@@ -48,7 +48,7 @@ export default function Page() {
             <Projects data={DATA.PROJECTS} all={DATA.ALL_PROJECTS} />
           </FadeInOnScroll>
           <FadeInOnScroll>
-            <Blogs data={DATA.BLOGS} />
+            <Achievements data={DATA.ACHIEVEMENTS} />
           </FadeInOnScroll>
           <FadeInOnScroll>
             <Skills data={DATA.SKILLS} />

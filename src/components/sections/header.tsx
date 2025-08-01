@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { MovingElement } from "../navbar";
 import Image from "next/image";
-import ProfileImage from "@/assets/me.jpeg"; // <- Replace with your actual image path
+import ProfileImage from "@/assets/me.jpeg";
 
 export function Header({ data }: { data: Record<string, string> }) {
   const handleChange = (url: string) => {
@@ -9,15 +9,12 @@ export function Header({ data }: { data: Record<string, string> }) {
   };
 
   return (
-    
     <section className="pt-12">
-      
       <div className="space-y-2">
         <p className="font-normal text-muted-foreground text-base">
-          hi there👋, I&apos;m
+          hi there 😳, I&apos;m
         </p>
 
-        {/* Flex row to align image and name */}
         <div className="flex items-center gap-3">
           <Image
             src={ProfileImage}
