@@ -1,6 +1,6 @@
 # Portfolio 
-Link- https://69ftw.vercel.app/
-
+Link- [
+](https://www.69ftw.site/)
 
 
 Welcome to my personal portfolio repository! This project showcases my work, skills, and experience through a modern, responsive, and dynamic web application built with Next.js and Tailwind CSS.
